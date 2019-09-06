@@ -180,11 +180,11 @@ int meta[100][6];
 
 int main () {
     time_t St_time = clock(); 
-    //freopen("../data/chess.dat", "r", stdin);    
-    freopen("../data/mashroom.dat", "r", stdin);
-	//freopen("../data/pstar.dat", "r", stdin);
-    //freopen("../data/accidents.dat", "r", stdin);
-    //freopen("../data/t1.dat", "r", stdin);
+    //freopen("../Dataset/chess.dat", "r", stdin);    
+    freopen("../Dataset/mashroom.dat", "r", stdin);
+	//freopen("../Dataset/pstar.dat", "r", stdin);
+    //freopen("../Dataset/accidents.dat", "r", stdin);
+    //freopen("../Dataset/t1.dat", "r", stdin);
     string str;
     while (getline(cin, str)) {
         transactions.push_back(process_input(str));    

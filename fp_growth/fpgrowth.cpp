@@ -229,12 +229,12 @@ void construct_conditional_fp_tree () {
 
 
 int main () { 
-    //freopen("../data/small_dataset.dat", "r", stdin);
-    //freopen("../data/chess.dat", "r", stdin);    
-    freopen("../data/mashroom.dat", "r", stdin);
-    //freopen("../data/pstar.dat", "r", stdin);
-    //freopen("../data/accidents.dat", "r", stdin);
-    //freopen("../data/t1.dat", "r", stdin);
+    //freopen("../Dataset/small_dataset.dat", "r", stdin);
+    //freopen("../Dataset/chess.dat", "r", stdin);    
+    freopen("../Dataset/mashroom.dat", "r", stdin);
+    //freopen("../Dataset/pstar.dat", "r", stdin);
+    //freopen("../Dataset/accidents.dat", "r", stdin);
+    //freopen("../Dataset/t1.dat", "r", stdin);
     string str;
     while (getline(cin, str)) {
 		transactions.push_back(process_input(str));    
